@@ -1,0 +1,36 @@
+.inner-page {
+    /* Временно для сетки */
+    background-image: url('../img/barbershop-shop.jpg');
+    background-size: 1200px auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.inner-page .main-header {
+    margin-bottom: 50px;
+
+    background-color: #000000;
+
+    /* Временно для сетки */
+    min-height: 70px;
+    background-color: transparent;
+    border: 2px solid rebeccapurple;
+}
+
+.inner-page .main-navigation {
+    align-items: flex-start;
+    flex-direction: row;
+
+    /* Временно для сетки */
+    min-height: 70px;
+    border: 2px solid red;
+}
+
+.inner-page .main-header-logo {
+    order: 0;
+
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+    border: 2px solid royalblue;
+}
